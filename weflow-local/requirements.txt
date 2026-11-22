@@ -1,0 +1,2 @@
+sqlcipher3-wheels==0.5.7
+pycryptodome==3.23.0

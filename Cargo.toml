@@ -1,0 +1,35 @@
+[package]
+name = "wechat-completion"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/Alice5412/wechat-message-completion"
+
+[dependencies]
+anyhow = "1"
+base64 = "0.22"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls-native-roots"] }
+roxmltree = "0.21"
+rpassword = "7"
+rusto-rs = { version = "0.4.1", features = ["rten"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+windows = { version = "0.62", features = [
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+    "Win32_Security_Credentials",
+    "Win32_System_Com",
+    "Win32_System_Console",
+    "Win32_System_DataExchange",
+    "Win32_System_LibraryLoader",
+    "Win32_System_Memory",
+    "Win32_System_Ole",
+    "Win32_System_Threading",
+    "Win32_UI_Accessibility",
+    "Win32_UI_Controls",
+    "Win32_UI_HiDpi",
+    "Win32_UI_Input_KeyboardAndMouse",
+    "Win32_UI_Input_Ime",
+    "Win32_UI_Shell",
+    "Win32_UI_WindowsAndMessaging",
+] }

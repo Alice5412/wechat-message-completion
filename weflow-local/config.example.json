@@ -1,0 +1,12 @@
+{
+  "port": 5031,
+  "token": "",
+  "wxid": "",
+  "root": "",
+  "db_key": "",
+  "cache_dir": ".cache",
+  "image_key": {
+    "xorKey": 0,
+    "aesKey": ""
+  }
+}
