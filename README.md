@@ -60,6 +60,8 @@ cargo +stable-x86_64-pc-windows-gnu build --release --locked
 
 `assets/ocr/` 取自 RustO! 的 PP-OCRv6 Tiny 0.3.2，保留 [模型包 MIT 许可](assets/ocr/LICENSE) 与 [PaddleOCR 权重 Apache 2.0 许可](assets/ocr/LICENSE-APACHE-2.0)。[RustO!](https://github.com/byrizki/rusto-rs) · [模型包](https://registry.npmjs.org/@rustors%2fmodel-ppocrv6-tiny/0.3.2)
 
+## 社区
+本项目在 [LINUX DO](https://linux.do) 社区发布与讨论。
 ## 许可证
 
 MIT，见 [LICENSE](LICENSE)。`assets/ocr/` 内文件按上游许可分发。
